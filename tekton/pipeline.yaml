@@ -15,6 +15,7 @@ spec:
     - name: repo-url
     - name: branch
       default: main
+    - name: build-image  # Added parameter definition
   tasks:
     - name: lint
       workspaces:
